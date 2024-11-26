@@ -16,7 +16,10 @@ import { createApp } from 'vue';
 const app = createApp({});
 
 import ExampleComponent from './components/ExampleComponent.vue';
+import Authorizations from "./components/authorizations.vue";
+
 app.component('example-component', ExampleComponent);
+app.component('authorizations-component', Authorizations);
 
 /**
  * The following block of code may be used to automatically register your
